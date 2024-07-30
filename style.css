@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+
+body {
+   background-color:#06055a;
+   color: aliceblue;
+   
+   
+   
+}   
+
+
+.header{
+    position:fixed;
+    z-index: +2;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    
+    padding: 20px 10%;
+    background-color: #000000cb;
+    display:flex;
+    justify-content: space-between;
+    align-items: 100px;
+}
+
+
+.logo{
+    font-size: 25px;
+    color:rgb(235, 234, 236);
+    text-decoration: none;
+    font-weight: 600;
+    
+    right: -10%;
+
+}
+
+.navbar a{
+    font-size: 20px;
+    color: rgb(226, 226, 233);
+    text-decoration:none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: rgb(10, 191, 247);
+}
+img{
+    display: flex;
+    margin: 40px;
+    height: 300px;
+}
+footer{
+    font-weight: 300;
+    color: aliceblue;
+    bottom: 10px;
+    width: 100%;
+    
+}
+h1{
+    width: 50%;
+}
+.click{
+    border-radius: 40px;
+    border: solid white 2px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.clickdiv a:hover {
+    color: rgb(10, 191, 247);
+    border: solid rgb(10, 191, 247) 3px;
+}
